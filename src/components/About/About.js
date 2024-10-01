@@ -68,8 +68,20 @@ function About() {
               rel="noopener noreferrer"
               style={{ zIndex: 2 }} // Ensuring anchor is clickable
             >
-              <Button variant="outline-primary" className="mb-3" style={{ zIndex: 2 }}>
+              <Button variant="outline-primary " className="mb-3" style={{ zIndex: 2 }}>
                 Codeforces: anwar9437
+              </Button>
+            </a>
+
+            {/* ICPC Handle */}
+            <a
+              href="https://icpc.global/ICPCID/PZG7862IDRGJ"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ zIndex: 2 }} // Ensuring anchor is clickable
+            >
+              <Button variant="outline-info" className="mb-3" style={{ zIndex: 2 }}>
+                ICPC ID: PZG7862IDRGJ
               </Button>
             </a>
 
@@ -84,6 +96,8 @@ function About() {
                 HackerRank: anwar200110
               </Button>
             </a>
+
+            
           </Col>
         </Row>
 

@@ -8,7 +8,6 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import Projects from "../Projects/Projects"; // Importing Projects
 
 function Home2() {
   return (
@@ -135,7 +134,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/maruf1921"
+                  href="https://twitter.com/anwar9437"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

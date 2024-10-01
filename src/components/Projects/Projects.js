@@ -82,7 +82,7 @@ function Projects() {
               title="Amazon clone"
               description="This project is a static clone of the Amazon website, built entirely using HTML and CSS. It replicates key visual elements, including the layout, header, product listings, and footer, providing a close representation of the original site without any backend functionality or interactivity. The focus is on achieving a clean, responsive design that mimics the real Amazon interface."
               ghLink="https://github.com/anwar-opu/amazon_clone"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              demoLink="https://anwar-opu.github.io/amazon_clone/"     // <--------Please include a demo link here 
             />
           </Col>
         </Row>
