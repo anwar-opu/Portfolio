@@ -17,7 +17,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Certifications from "./components/Certification/Certifications";
-
+import Gallery from "./components/Gallery/Gallery";
 function App() {
   const [load, upadateLoad] = useState(true);
 
@@ -41,6 +41,7 @@ function App() {
           <Route path="/about" element={<About/>} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/certification" element={<Certifications/>} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

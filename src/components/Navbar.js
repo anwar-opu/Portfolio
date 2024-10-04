@@ -10,6 +10,7 @@ import { ImBlog } from "react-icons/im";
 import { AiFillStar, AiOutlineHome, AiOutlineFundProjectionScreen, AiOutlineUser } from "react-icons/ai";
 import { FaCertificate } from "react-icons/fa"; // Import the new certificate icon
 import { CgFileDocument } from "react-icons/cg";
+import { BiImageAdd } from "react-icons/bi"; // New gallery icon
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -71,7 +72,13 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-           {/* <Nav.Item className="fork-btn">
+            <Nav.Item>
+              <Nav.Link as={Link} to="/gallery" onClick={() => updateExpanded(false)}>
+                <BiImageAdd style={{ marginBottom: "2px" }} /> Gallery {/* Changed Icon */}
+              </Nav.Link>
+            </Nav.Item>
+
+            {/* <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/anwar-opu/Portfolio"
                 target="_blank"

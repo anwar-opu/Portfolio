@@ -107,7 +107,7 @@ function About() {
         <Row className="justify-content-center mt-5">
           <Col md={12}>
             <p>ICPC 2021, 2022, and 2023 participant</p>
-            <p>Solved over 180+ problems on Codeforces</p>
+            <p>Solved over 180+ problems on Codeforces and <span className="purple">rating max 802</span> </p>
             <p>Bronze level badge in Python on HackerRank</p>
           </Col>
         </Row>

@@ -20,7 +20,7 @@ function ProjectCards(props) {
           target="_blank"
           style={{
             position: "relative", // Ensure the button is positioned for z-index
-            zIndex: 10, // Bring the button on top
+            zIndex: 100, // Bring the button on top
           }}
         >
           <BsGithub /> &nbsp;
@@ -36,7 +36,7 @@ function ProjectCards(props) {
             style={{
               marginLeft: "10px",
               position: "relative",
-              zIndex: 10, // Ensure the demo button is also clickable
+              zIndex: 100, // Ensure the demo button is also clickable
             }}
           >
             <CgWebsite /> &nbsp;

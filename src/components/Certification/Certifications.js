@@ -51,7 +51,6 @@ function Certifications() {
                 <Button
                   variant="primary"
                   href="https://drive.google.com/file/d/1EULKpyGYw4QNwKGSH9cQYzVV86gxtNxw/view?usp=drive_link"
-                  target="_blank"
                   className="mb-2"
                 >
                   View Certificate
@@ -71,7 +70,6 @@ function Certifications() {
                 <Button
                   variant="primary"
                   href="https://drive.google.com/file/d/1wG79Loe9C5qTqtiaBG_XzzNoBqZwY1In/view?usp=drive_link"
-                  target="_blank"
                   className="mb-2"
                 >
                   View Certificate
@@ -91,7 +89,6 @@ function Certifications() {
                 <Button
                   variant="primary"
                   href="https://drive.google.com/file/d/10rZ5jd1k-C5pT1-BoiBfu4C45NqPBV1G/view?usp=drive_link"
-                  target="_blank"
                   className="mb-2"
                 >
                   View Certificate
